@@ -1,11 +1,25 @@
 #include <stdio.h>
 
+/*
+
+$   $   $
+$$  $$  $$
+$$$ $$$ $$$
+$$$$$$$$$$$$
+$$$ $$$ $$$
+$$  $$  $$
+$   $   $
+
+*/
+
 int main(){
 
 
-int n;
+int m;
 printf("Enter N: \n");
-scanf("%d", &n);
+scanf("%d", &m);
+
+int n = m/2;
 
 for(int i = 0; i < n; i++)
 {

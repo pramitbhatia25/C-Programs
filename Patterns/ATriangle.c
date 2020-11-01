@@ -1,5 +1,16 @@
 #include <stdio.h>
 
+/*
+AAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAA AAAAAAA AAAAAAA
+AAAAAA  AAAAAA  AAAAAA
+AAAAA   AAAAA   AAAAA
+AAAA    AAAA    AAAA  
+AAA     AAA     AAA  
+AA      AA      AA  
+A       A       A
+
+*/
 int main(){
 
 int n;
