@@ -9,7 +9,7 @@ int factorial(int n)
 
 int smallfactorial(int n)
 {
-	return (n==1 ? 1 : n*factorial(n-1));
+	return (n==1 ? 1 : n*smallfactorial(n-1));
 }
 
 int main()
