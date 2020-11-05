@@ -14,7 +14,7 @@ int main()
 	
 	g = ( a > b ? GCD(a, b) : GCD (b, a));
 	
-	printf("GCD is : %d\n", g);
+	printf("GCD is : %d", g);
 	
 	return 0;
 }

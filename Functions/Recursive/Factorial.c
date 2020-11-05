@@ -1,6 +1,8 @@
 #include <stdio.h>
 
-int factorial(int n)
+//To find Factorial Of A Number
+
+long int factorial(int n)
 {
 	if(n == 1) return 1;
 	else
@@ -14,12 +16,12 @@ int smallfactorial(int n)
 
 int main()
 {
-	int a, fact;
+	int a; long int fact;
 	printf("Enter any Number: \n");
 	scanf("%d", &a);
 	
 	fact = factorial(a);
 	
-	printf("Factorial value = %d\n", fact);
+	printf("Factorial value = %ld\n", fact);
 	return 0;
 }	
