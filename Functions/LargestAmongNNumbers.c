@@ -1,5 +1,23 @@
 #include <stdio.h>
 
+int find_max (int n)			//n is the total no of nos given.
+{
+	int next_num, largest = 0, i;	//
+	for(i = 0; i < n; i++)
+	{
+		printf("Enter The Next Number: \n");
+		scanf("%d", &next_num);
+		
+		if(next_num > largest)
+		{
+			largest = next_num;
+		}
+	}
+
+return largest;
+
+}
+
 int main()
 {
 	int a;
@@ -14,19 +32,4 @@ return 0;
 }
 
 
-int find_max (int n)			//n is the total no of nos given.
-{
-	int next_num, largest = 0, i;	//
-	for(i = 0; i < n; i++)
-	{
-		printf("Enter The Next Number: \n");
-		scanf("%d", &next_num);
-		
-		if(next_num > largest)
-			largest = next_num;
-	}
-
-return largest;
-
-}
 
