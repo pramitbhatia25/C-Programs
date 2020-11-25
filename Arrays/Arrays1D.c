@@ -21,6 +21,3 @@ int main()
 	
 	return 0;
 }
-Given an array od size 10, find all even nos
-given an array of size 15 find all prime nos
-
