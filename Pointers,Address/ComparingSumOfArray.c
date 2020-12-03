@@ -34,7 +34,7 @@ int main()
     	for(j=0;j<5;j++)
     	{
     	    	printf("Enter Value %d : ", j);
-    		scanf("%d",&x[j]);
+    		scanf("%d",&y[j]);
     	}
     	
     	g=large_sum(x,y,10);
