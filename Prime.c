@@ -1,25 +1,31 @@
 #include <stdio.h>
 
-int main(){
-
-int n;
-int flag = 1;
-
-printf("Enter Number : \n");
-scanf("%d", &n);
-
-for(int i = 2; i <= n/2; i++)
+int main()
 {
-	if(n%i == 0)
-	{
-		flag = 0;	
-		break;
-	}
+
+	int n;
+
+	printf("Enter Number : \n");
+	scanf("%d", &n);
+
+	prime(n);
+
+	return 0;
+
 }
 
-if(flag == 1) printf("The No is Prime\n");
-if(flag == 0) printf("The No is Not Prime\n");
+void prime(int n)
+{
+	int flag = 1;
+	for(int i = 2; i <= n/2; i++)
+	{
+		if(n%i == 0)
+		{
+			flag = 0;	
+			break;
+		}
+	}	
 
-return 0;
-
+	if(flag == 1) printf("The No is Prime\n");
+	if(flag == 0) printf("The No is Not Prime\n");
 }
