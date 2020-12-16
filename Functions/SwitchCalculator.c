@@ -5,12 +5,19 @@
 //Enter 3 character phrase , like 3 * 4
 
 
-int add(int a, int b)
+
+
+
+
+
+
+add(int a, int b)
 {
 	return a+b;
 }
 
-int multiply(int a, int b)
+int multiply(a, b)
+int a,b;
 {
 	return a*b;
 }
@@ -39,7 +46,7 @@ int main()
 	
 	switch(operation)
 	{
-		case 'd': printf("%d\n", add(a, b)); break;
+		case '+': printf("%d\n", add(a, b)); break;
 
 		case '-': printf("%d\n", subtract(a, b)); break;
 
