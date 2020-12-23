@@ -4,8 +4,9 @@ int main(){
 
 int n;
 
-printf("Enter your Number: \n");
-scanf("%d", &n);
+puts("Enter your Number: \n");
+gets(n);
+//scanf("%d", &n);
 
 int ms = 1;
 

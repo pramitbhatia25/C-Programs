@@ -43,7 +43,7 @@ int main()
 	}
 	
 	avg = sum/n;
-	printf("\nThe Average Salary is %.2f",sum);
+	printf("\nThe Average Salary is %.2f\n",sum);
 	
 	return 0;
 }

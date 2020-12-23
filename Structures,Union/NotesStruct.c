@@ -37,6 +37,26 @@ struct book			//structure definition
 //if we wanna use pointers syntax is
 // pointer_to_structvaribale -> datatype
 
+
+
+//3 ways to declare struct
+//1 struct name
+//  {
+//  }
+//  struct name n1,n2;
+
+
+//2 struct name
+//  {
+//  }
+//  n1,n2;
+
+
+//3 struct		not recommended as we cant use datatype further
+//  {
+//  }
+//  n1,n2;
+
 int main()
 {
 	struct book b,k[5];
@@ -45,6 +65,7 @@ int main()
 	k[0].pages = 100;
 	//essentially we had 5 variables, all books, k[0] to k[5]. each variable k[i] is not an integer of array, it is struct
 	
+	printf("ENTER NAME");
 	scanf("%s",k[0].name);
 	//we dont use & with string
 	b.name[5] = 's';
