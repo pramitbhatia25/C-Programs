@@ -23,13 +23,13 @@ main()
 
 	t -> next = NULL;
 	
-	head = t; // basically we are storing address of 1st node in head so we can refer to head node when required
+	head = t;
 
 	do{
 		t = (struct node *) malloc(sizeof(struct node));
 		printf("Enter number:\n");
 		scanf("%d", &t->data);
-		t ->next = NULL;
+		t -> next = NULL;
 		p = head;
 		while(p -> next)
 			p = p -> next; 
@@ -38,14 +38,26 @@ main()
 		scanf("%d",&a);
 	}while(a);
 
-	p = head;
-	
-	while(p!= NULL)
+	struct node *largest_node(struct node *p) // it returns address of a node thus we write *largest_node
 	{
-		printf("%d\n", p -> data);
-		p = p ->next;
+		struct node *t;
+		
+		while( p -> next)
+		{
+			if(p->data > &t)
+				&t -> data = p -> data;		
+		}
+		
+		return t;
 	}
-	return 0;
+	
+	struct node *q;
+	q = largest_node(head);
+	printf("%d", q->data);
+
+
+	
+	
 }
 
 
