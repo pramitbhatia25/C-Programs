@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+//find factorial
 int main(){
 
 int n;
