@@ -1,5 +1,5 @@
 # C-Programs
-C Programs Completed In College....
+C Programs Completed For College....
 
 This project contains several programs completed by students of KIIT 1st Year CSE Branch.
 
