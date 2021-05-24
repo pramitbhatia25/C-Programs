@@ -4,6 +4,8 @@
 #define PI 3.1416
 #define MAX 180
 
+const Saint COUNT = 3;
+
 void main()
 {
 	int angle;
