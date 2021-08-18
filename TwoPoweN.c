@@ -4,7 +4,7 @@
 int main(){
 
 int n;
-printf("Enter Power Upto Which Required : \n");
+printf("Enter Powser Upto Which Required : \n");
 scanf("%d",&n); 
 printf("Power		Value\n");
 for(int i = 0; i < n; i++)
